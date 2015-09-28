@@ -1,13 +1,11 @@
 var { requireNativeComponent, PropTypes } = require('react-native');
 
 var iface = {
-  name: 'Button',
+  name: 'LoginButton',
   propTypes: {
-    width: PropTypes.number
+    width: PropTypes.string
   }
 };
 
-var FBButton = requireNativeComponent('MyButton', iface);
-console.log("here here");
-console.log(FBButton);
+var FBButton = requireNativeComponent('RCTFBLoginButton', iface);
 module.exports = FBButton;

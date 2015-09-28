@@ -18,7 +18,7 @@ var fbloginbutton2 = React.createClass({
     return (
       <View style={styles.container}>
         <Text>Hi</Text>
-        <FBLogin width={200.0} style={styles.mybutton}/>
+        <FBLogin width='100' style={styles.mybutton}/>
       </View>
     );
   }

@@ -18,7 +18,7 @@ public class FBLoginButtonReactPackage extends MainReactPackage {
         List<ViewManager> main = super.createViewManagers(reactContext);
         List<ViewManager> result = new ArrayList<>();
         result.addAll(main);
-        result.add(new MyButtonManager());
+        result.add(new FBLoginButtonManager());
         return result;
     }
 
