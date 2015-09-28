@@ -1,0 +1,3 @@
+rootProject.name = 'fbloginbutton2'
+
+include ':app'
